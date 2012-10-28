@@ -30,6 +30,7 @@ get_footer(); ?>
                 })
             })
             $(".CommunityAssets").remove();
+			$(".col2").removeClass("col2");
         });
 
 
