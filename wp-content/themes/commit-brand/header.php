@@ -69,7 +69,7 @@ foreach ($options as $value) {
 
 				<hgroup class="fleft">
 					<h1 id="site-title">
-						<a href="http://www.commit2dallas.org" title="Commit! - &quot;Because every child is our responsibility&#8230;.and our future.&quot;" rel="home">
+						<a href="<?php get_home_url(); ?>" title="Commit! - &quot;Because every child is our responsibility&#8230;.and our future.&quot;" rel="home">
 							<img width="400" src="<?php echo get_bloginfo('template_directory');?>/images/commit-logo-white-4inches.png"  alt="commit!" />
 						</a>
 					</h1>
