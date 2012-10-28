@@ -3675,32 +3675,57 @@ padding: 0;
     
 }
 
+
+
+/***********************
+
+  COMMON HERO CONTENT STYLING
+
+ ***********************/
+
 /* --- --- [ Headline ] --- --- */
 
-#primary #headline {	
-border: 10px #000;
-width: 80%;
-margin-left: 10%;
-margin-top: 20px; 
+#primary {	
+	width: 100%;
 }
 
-#primary #headline # headline-img {	
-float: left;
+
+#primary #hero-content {	
+	border: 10px #000;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 20px; 
+	padding: 20px; 
 }
 
-#primary #headline # headline-accordion {	
-float: right;
+#primary #hero-content #hero-image img{
+	border: 1px;
+	width: 50%;
+	float: left;
+	margin-right: 5%;
 }
 
-#primary #headline # headline-accordion ul {	
-width: 50%;
+
+#primary #hero-content #accordion {	
+	float: left;
+	width: 45%;
 }
 
-#primary #headline #headline-img img{
-border: 1px;
-padding: 2px; 
-width: 50%;
+#primary #hero-content #accordion h3 {	
+	background-color: #ddd;
 }
+
+.defaultIcon {
+    background-image: url(images/arrow_E.gif) !important;
+    width: 25px;
+    height: 25px;
+}
+.selectedIcon {
+    background-image: url(images/arrow_S.gif) !important;
+    width: 25px;
+    height: 25px;
+}
+
 
 /* Footer Cradle to Career Nav*/
 .footerc ul{

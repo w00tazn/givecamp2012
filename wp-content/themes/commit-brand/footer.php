@@ -3,7 +3,7 @@
 ?>
 					<div class="footerc">
 						<center>
-							<ul>
+						<ul>
 							<li>
 							<a href="#">
 								<img src="<?php bloginfo('template_directory'); ?>/images/cradle.png" alt="Early Childhood Education"/>
@@ -11,20 +11,21 @@
 								Early Childhood Education
 							</a>
 							</li>	
-						<li>
-							<a href="#">
-								<img src="<?php bloginfo('template_directory'); ?>/images/backpack.png" alt="4-12 Education"/>
-								<br/>
-								4-12 Education
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="<?php bloginfo('template_directory'); ?>/images/briefcase.png" alt="Higher Education / Workforce" />
-								<br/>
-								Higher Education / Workforce
-							</a>
-						</li>
+							<li>
+								<a href="#">
+									<img src="<?php bloginfo('template_directory'); ?>/images/backpack.png" alt="4-12 Education"/>
+									<br/>
+									4-12 Education
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="<?php bloginfo('template_directory'); ?>/images/briefcase.png" alt="Higher Education / Workforce" />
+									<br/>
+									Higher Education / Workforce
+								</a>
+							</li>
+						</ul>
 						</center>
 					</div>
 </div>
@@ -46,7 +47,13 @@
 			</footer>
 
 		</div>
-	<?php wp_footer(); ?>
+					<script type='text/javascript'>
+						$(function() {
+					    	$('#accordion').accordion({heightStyle: "content"});
+					    	//$('#accordion').accordion( "option", "icons", { "header": "defaultIcon", "headerSelected": "selectedIcon" } );
+						});
+					</script>
+					<?php wp_footer(); ?>
 					<script type='text/javascript' src='<?php echo get_template_directory_uri() ?>/js/jquery.hoverIntent.minified.js'></script>
 					<script>
 					//$(document).ready(function () {
@@ -66,10 +73,7 @@
 					    });
 					});
 					</script>
-					<script type='text/javascript'>
-						$(function() {
-						   	$('#accordion').accordion();
-						});
-					</script>
+								
+
 	</body>
 </html>
