@@ -3816,7 +3816,7 @@ td.asset
 
 .asset-link 
 {
-	font-size: x-large;
+	font-size: larger;
 	color: #F15827;
 	padding-top: 0px !important;
 }
@@ -3838,7 +3838,7 @@ td.asset
 	font-family:arial !important;
 	font-size:12px !important;
 	font-weight:bold !important;
-	padding:6px 24px !important;
+	padding:6px 6px !important;
 	text-decoration:none !important;
 	text-shadow:1px 1px 0px #cc9f52 !important;
 
