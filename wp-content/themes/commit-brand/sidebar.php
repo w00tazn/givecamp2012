@@ -8,24 +8,24 @@
 
 	<div class="sidebar-box">
 	<h3>
-	<img src="/wp-content/themes/commit-brand/images/learn-more-icon.png" alt="?" />
+	<img src="<?php echo get_bloginfo('template_directory');?>/images/learn-more-icon.png" alt="?" />
 	<span>Learn More</span></h3>
 		<a href="/wp-content/pdf/2011_WI_Feature_Kania.pdf" target="_blank" />
-			<img src="/wp-content/themes/commit/images/new-approach-thumb.jpg" alt=""  class="learn-more-thumb" />
+			<img src="<?php echo get_bloginfo('template_directory');?>/images/new-approach-thumb.jpg" alt=""  class="learn-more-thumb" />
 		</a>	
 		<a href="/wp-content/pdf/2011_WI_Feature_Kania.pdf" target="_blank" class="blue-button" />
 			Discover a New Approach
 		</a>
 		
 		<a href="/wp-content/pdf/Commit_Presentation_July_2012.pdf" target="_blank">
-	  		<img src="/wp-content/themes/commit/images/download-presentation-thumb.jpg" alt="download Commit! presentation" class="learn-more-thumb" />
+	  		<img src="<?php echo get_bloginfo('template_directory');?>/images/download-presentation-thumb.jpg" alt="download Commit! presentation" class="learn-more-thumb" />
 	  	</a>
 	  	<a href="/wp-content/pdf/Commit_Presentation_July_2012.pdf" target="_blank" class="blue-button">
 	  		Download the Presentation
 	  	</a>
 	  	
 	  	<a href="/about-us#presentation">
-	  		<img src="/wp-content/themes/commit/images/watch-presentation-thumb.jpg" alt="watch Commit! presentation" class="learn-more-thumb" />
+	  		<img src="<?php echo get_bloginfo('template_directory');?>/images/watch-presentation-thumb.jpg" alt="watch Commit! presentation" class="learn-more-thumb" />
 	  	</a>
 	  <a href="/about-us#presentation" class="blue-button">
 	  		Watch the Presentation
@@ -34,7 +34,7 @@
 
 	<div class="sidebar-box news-box">
 		<h3>
-		<img src="/wp-content/themes/commit-brand/images/news-icon.png" alt="!" />
+		<img src="<?php echo get_bloginfo('template_directory');?>/images/news-icon.png" alt="!" />
 		<span>News</span></h3>
 		<ul class="news-feed">
 		<?php
