@@ -32,9 +32,11 @@ get_header();
 
 			
 		</div><!-- #accordion -->
-	<div style="clear: both"></div>	
+	<div style="clear: both"></div>
+	
 	</div><!-- #hero-content -->
 	
+	get_template_part('inc', 'givecamp') ;
 </div><!-- #primary -->
 
 <?php
