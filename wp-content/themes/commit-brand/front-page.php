@@ -35,8 +35,7 @@ get_header();
 	<div style="clear: both"></div>
 	
 	</div><!-- #hero-content -->
-	
-	get_template_part('inc', 'givecamp') ;
+	<?php get_template_part('inc', 'givecamp') ; ?>
 </div><!-- #primary -->
 
 <?php
