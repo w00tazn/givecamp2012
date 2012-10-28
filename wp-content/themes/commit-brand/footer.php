@@ -2,7 +2,9 @@
 
 ?>
 					<div class="footerc">
+						
 						<center>
+						<img style="margin-bottom: 15px;" src="<?php bloginfo('template_directory'); ?>/images/cradle.png" alt="Early Childhood Education"/>
 						<ul>
 							<li>
 							<a href="#">
@@ -26,21 +28,18 @@
 								</a>
 							</li>
 						</ul>
+						<img style="margin-bottom: 15px;" src="<?php bloginfo('template_directory'); ?>/images/briefcase.png" alt="Early Childhood Education"/>
 						</center>
 					</div>
 </div>
 
 
 			<footer>
-
-				<br/>
-				<center>
-					<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'menu' ) ); ?>
-				</center>
-				<br/>
-				<br/>
-
-				<div class="footer-logo"><img src="<?php bloginfo('template_directory'); ?>/images/footer-logo.png" alt=" " /></div>
+				<!-- <div style="float:right">		 -->
+				<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'menu' ) ); ?>
+					<!-- </div> -->
+				<div class="clear"></div>
+				
 				<p class="footer-right">All Rights Reserved. 2012. Commit!</p>								
 				<div class="clear"></div>	
 

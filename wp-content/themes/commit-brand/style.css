@@ -132,29 +132,24 @@ body {
 }
 
 footer {
-	background: #003663;
+	background: #003663 url(images/footer-logo.png) 20px 20px no-repeat;
 }
-
-.footer-logo {float: left;padding-bottom: 0px;margin-left: 20px;}
 
 .footer-right {
-	margin-top: 60px;float: left;margin-left: 20px;
+	margin-top: 5px;float: left;margin-left: 20px;
 	color: white;
 }
-
-footer .menu ul {
-	list-style: none;
-	margin: 0px 0px;
-	padding: 0px 0 0 0;
-	display: inline-block;
-
+footer .menu
+{
+	float:right;
+	margin: 5px 5px;
 }
 
 footer .menu ul li {
 	float: left;
-	position: relative;
+	/*position: relative;*/
 	margin: 0px 10px 0px 0px;
-	width: 130px;
+	width: 100px;
 	font-weight:bold;
 	text-align:right;
 }
@@ -164,11 +159,16 @@ footer .menu ul li ul li {
 }
 
 footer .menu ul ul {
-	position: absolute;
 	top: 20px; 
 	left: 0px;
-	float: left;
-	z-index: 99999;
+	/*float: left;*/
+}
+
+footer .menu ul ul ul{
+	/*position: relative;*/
+	top: 0px;
+	left: 0px;
+	/*float: left;*/
 }
 
 footer .menu a {
@@ -3542,190 +3542,32 @@ h1 a:hover {text-decoration: none; border-bottom: 0px;}
 
 }
 
-
-/* Custom styles */
-.c2c-accordion {
-    width: 1070px;
-    height: 222px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    max-height: 300px;
-    border: 1px solid #c5d1d9;
-    margin: 5px auto;
-    border: 1px solid #DDD;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
-    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
-}
-
-
-.button {
-    height: 20px;
-    width: 50px;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.1);
-    border: 1px solid #0088A3;
-}
-
-.c2c-item ul{
-list-style: none;
-margin: 0;
-padding: 0;
-}
-
-.c2c-item ul li{
-    float: left;
-    display: block;
-}
-
-.c2c-business-card {
-    position: relative;
-    padding-bottom: 5px;
-    margin: 0px 10px;
-    min-height: 215px;
-    border: 1px solid #DDD;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
-    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
-}
-
-.c2c-item ul li a {
-    display: block;
-    overflow: hidden;
-    width: 205px; 
-}
-
-.c2c-item #a1{
-    width: 660px;
-}
-
-.c2c-item ul li img {
-    width: 150px;
-    height: 150px;
-    margin: 10px;
-}
-
-.c2c-item ul li h3 {
-    margin-top: 10px;
-    padding: 0;
-    display: block;
-}
-
-.c2c-div-left {
-    background-color: rgba(0, 0, 0, 0.1);
-    text-align: center;
-    margin: 5px;
-    float: left;
-}
-
-.c2c-div-right {
-    padding-left: 5px;
-    margin-left: 180px;
-    height: 205px;
-}
-
-.c2c-item a .c2c-div-right {
-    display: none;
-}
-
-#a1 .c2c-div-right {
-    display: block;
-}
-
-
-.button {
-    width: auto;
-    background: #2BA6CB;
-    border: 1px solid #1E728C;
-    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-    color: white;
-    cursor: pointer;
-    display: inline-block;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 1;
-    margin: 0;
-    outline: none;
-    padding: 10px 20px 11px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    -webkit-transition: background-color 0.15s ease-in-out;
-    -moz-transition: background-color 0.15s ease-in-out;
-    -o-transition: background-color 0.15s ease-in-out;
-    transition: background-color 0.15s ease-in-out;
-}
-
-.c2c-button-container {
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 5px;
-}
-
-.c2c-content-container {
-    
-}
-
-
-
-/***********************
-
-  COMMON HERO CONTENT STYLING
-
- ***********************/
-
 /* --- --- [ Headline ] --- --- */
 
-#primary {	
-	width: 100%;
+#primary #headline {	
+border: 10px #000;
+width: 80%;
+margin-left: 10%;
+margin-top: 20px; 
 }
 
-
-#primary #hero-content {	
-	border: 10px #000;
-	width: 80%;
-	margin-left: 10%;
-	margin-top: 20px; 
-	padding: 20px; 
+#primary #headline # headline-img {	
+float: left;
 }
 
-#primary #hero-content #hero-image img{
-	border: 1px;
-	width: 50%;
-	float: left;
-	margin-right: 5%;
+#primary #headline # headline-accordion {	
+float: right;
 }
 
-
-#primary #hero-content #accordion {	
-	float: left;
-	width: 45%;
+#primary #headline # headline-accordion ul {	
+width: 50%;
 }
 
-#primary #hero-content #accordion h3 {	
-	background-color: #ddd;
+#primary #headline #headline-img img{
+border: 1px;
+padding: 2px; 
+width: 50%;
 }
-
-.defaultIcon {
-    background-image: url(images/arrow_E.gif) !important;
-    width: 25px;
-    height: 25px;
-}
-.selectedIcon {
-    background-image: url(images/arrow_S.gif) !important;
-    width: 25px;
-    height: 25px;
-}
-
 
 /* Footer Cradle to Career Nav*/
 .footerc ul{
@@ -3735,9 +3577,10 @@ padding: 0;
 
 .footerc li{
 	background: transparent url(images/ctoc-footer-chevron.png) no-repeat;
-	width: 350px;
+	background-size:100% 100%;
+	width: 280px;
 	float:left;
-	margin-left:-20px;
+	margin-left:-18px;
 	height: 82px;
 }
 
@@ -3755,4 +3598,3 @@ padding: 0;
 	margin-top:5px;
 	height:50px;
 }
-
