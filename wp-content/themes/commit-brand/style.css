@@ -3734,10 +3734,15 @@ padding: 0;
 
 
 .footerc li{
-	background: #92C83E;
-	
+	background: transparent url(images/ctoc-footer-chevron.png) no-repeat;
 	width: 350px;
 	float:left;
+	margin-left:-20px;
+	height: 82px;
+}
+
+.footerc li:first-child{
+	margin-left:0px;
 }
 
 .footerc a{
@@ -3747,5 +3752,7 @@ padding: 0;
 }
 
 .footerc img{
-	height:60px;
+	margin-top:5px;
+	height:50px;
 }
+
