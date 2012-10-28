@@ -45,23 +45,17 @@ foreach ($options as $value) {
 		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri() ?>/images/apple-touch-icon.png" />
 
 		<?php if ( is_singular() ) wp_enqueue_script( "comment-reply" ); ?>
-
+		
+		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 		<?php if ( is_page('community-assets') ) { ?>
 
      		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/style2.css" type="text/css" media="screen" />
-
-		<?php } else { ?>
-
-     		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 
 		<?php } ?>
 
 		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/js/jquery-ui-1.9.1.custom.min.css" />
 		<script src='<?php echo get_template_directory_uri() ?>/js/jquery-1.8.2.min.js' type='text/javascript'></script>
 		<script src='<?php echo get_template_directory_uri() ?>/js/jquery-ui-1.9.1.custom.min.js' type='text/javascript'></script>
-
-
-
 
 		<?php wp_head(); ?>
 
@@ -75,7 +69,7 @@ foreach ($options as $value) {
 
 				<hgroup class="fleft">
 					<h1 id="site-title">
-						<a href="http://commit2dallas.org/" title="Commit! - &quot;Because every child is our responsibility&#8230;.and our future.&quot;" rel="home">
+						<a href=" <?php get_site_url(); ?>" title="Commit! - &quot;Because every child is our responsibility&#8230;.and our future.&quot;" rel="home">
 							<img width="400" src="<?php echo get_bloginfo('template_directory');?>/images/commit-logo-white-4inches.png"  alt="commit!" />
 						</a>
 					</h1>
@@ -92,13 +86,7 @@ foreach ($options as $value) {
 			</header>
 
 			<div class="nav">
-
 				<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'menu' ) ); ?>
-
-<!-- 				<div class="left-corner"></div>
-
-				<div class="right-corner"></div>
- -->
 			</div>
 
 			<div id="main">
