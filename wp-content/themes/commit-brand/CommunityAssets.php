@@ -29,7 +29,7 @@ get_footer(); ?>
 
                 })
             })
-            $(".CommunityAssets").remove();
+            $(".wp-table-reloaded-id-1").remove();
 			$(".col2").removeClass("col2");
         });
 
