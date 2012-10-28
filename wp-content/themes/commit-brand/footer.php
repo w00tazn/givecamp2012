@@ -3,7 +3,7 @@
 ?>
 					<div class="footerc">
 						<center>
-							<ul>
+						<ul>
 							<li>
 							<a href="#">
 								<img src="<?php bloginfo('template_directory'); ?>/images/cradle.png" alt="Early Childhood Education"/>
@@ -11,20 +11,21 @@
 								Early Childhood Education
 							</a>
 							</li>	
-						<li>
-							<a href="#">
-								<img src="<?php bloginfo('template_directory'); ?>/images/backpack.png" alt="4-12 Education"/>
-								<br/>
-								4-12 Education
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="<?php bloginfo('template_directory'); ?>/images/briefcase.png" alt="Higher Education / Workforce" />
-								<br/>
-								Higher Education / Workforce
-							</a>
-						</li>
+							<li>
+								<a href="#">
+									<img src="<?php bloginfo('template_directory'); ?>/images/backpack.png" alt="4-12 Education"/>
+									<br/>
+									4-12 Education
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="<?php bloginfo('template_directory'); ?>/images/briefcase.png" alt="Higher Education / Workforce" />
+									<br/>
+									Higher Education / Workforce
+								</a>
+							</li>
+						</ul>
 						</center>
 					</div>
 </div>
