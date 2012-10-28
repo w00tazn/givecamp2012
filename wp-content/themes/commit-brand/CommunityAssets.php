@@ -16,7 +16,7 @@ get_footer(); ?>
 <script type="text/javascript">
     (function ($) {
         $(document).ready(function () {
-            $(".CommunityAssets").each(function (i) {
+            $(".wp-table-reloaded-id-1").each(function (i) {
                 var filter = $("#CommunityDestination").attr("data-filter");
                 $("tr").each(function (index) {
                     that = $(this);
