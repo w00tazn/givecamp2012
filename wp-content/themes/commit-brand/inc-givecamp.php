@@ -91,10 +91,10 @@
 <script type="text/javascript" >
     $(document).ready(function () {
         lastBlock = $("#a1");
-        maxWidth = 610;
+        maxWidth = 580;
         minWidth = 230;
 
-        $("ul li a").hover(
+        $(".c2c-accordion ul li a").hover(
         function () {
             $(lastBlock).animate({ width: minWidth + "px" }, { queue: false, duration: 750 });
             $(this).animate({ width: maxWidth + "px" }, { queue: false, duration: 750 });
