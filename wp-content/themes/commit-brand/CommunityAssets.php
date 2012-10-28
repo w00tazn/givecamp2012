@@ -3,8 +3,13 @@
      * Template Name: CommunityAssets
      */
 get_header();
-get_template_part('content-grey', 'page' ) ;
- 
+?>
+
+<div id="primary" class="one-col-content">
+	<?php get_template_part('content-grey', 'page' ) ; ?>
+</div>
+
+<?php
 get_footer(); ?>
 
 
