@@ -1841,3 +1841,135 @@ h1 a:hover {text-decoration: none; border-bottom: 0px;}
 #salesforce a {
   color:#003663;
 }
+
+/* Custom styles */
+.c2c-accordion {
+    width: 1070px;
+    height: 222px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 300px;
+    border: 1px solid #c5d1d9;
+    margin: 5px auto;
+    border: 1px solid #DDD;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+}
+
+
+.button {
+    height: 20px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #0088A3;
+}
+
+.c2c-item ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.c2c-item ul li{
+    float: left;
+    display: block;
+}
+
+.c2c-business-card {
+    position: relative;
+    padding-bottom: 5px;
+    margin: 0px 10px;
+    min-height: 215px;
+    border: 1px solid #DDD;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+}
+
+.c2c-item ul li a {
+    display: block;
+    overflow: hidden;
+    width: 205px; 
+}
+
+.c2c-item #a1{
+    width: 660px;
+}
+
+.c2c-item ul li img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.c2c-item ul li h3 {
+    margin-top: 10px;
+    padding: 0;
+    display: block;
+}
+
+.c2c-div-left {
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 5px;
+    float: left;
+}
+
+.c2c-div-right {
+    padding-left: 5px;
+    margin-left: 180px;
+    height: 205px;
+}
+
+.c2c-item a .c2c-div-right {
+    display: none;
+}
+
+#a1 .c2c-div-right {
+    display: block;
+}
+
+
+.button {
+    width: auto;
+    background: #2BA6CB;
+    border: 1px solid #1E728C;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+    outline: none;
+    padding: 10px 20px 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: background-color 0.15s ease-in-out;
+    -moz-transition: background-color 0.15s ease-in-out;
+    -o-transition: background-color 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.c2c-button-container {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+}
+
+.c2c-content-container {
+    
+}

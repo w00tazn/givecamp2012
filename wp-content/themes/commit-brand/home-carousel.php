@@ -26,6 +26,9 @@
 	
 	 <?php if(get_field('home_carousel')): ?>
 	<div class="middle-blocks-wrap">
+        <?php get_template_part('inc', 'indexloop' ) ; ?>
+
+        <!--
 		<?php while(the_repeater_field('middle_blocks')): ?>
 		<div class="mid-block">
 			<h2><?php the_sub_field('headline'); ?></h2>
@@ -41,7 +44,7 @@
 			 	<?php $link = get_sub_field('link');?>
 			 	<?php $linktext = get_sub_field('link_text');?>
 			<a href="<?php echo $link; ?>" class="mid-block-more"><?php echo $linktext; ?></a>
-				<?php endif; ?>
+				<?php endif; ?> -->
 		</div>
 	<?php endwhile; ?>
 	<div class="clear"></div>
