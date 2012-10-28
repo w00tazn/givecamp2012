@@ -47,7 +47,13 @@
 			</footer>
 
 		</div>
-	<?php wp_footer(); ?>
+					<script type='text/javascript'>
+						$(function() {
+					    	$('#accordion').accordion({heightStyle: "content"});
+					    	//$('#accordion').accordion( "option", "icons", { "header": "defaultIcon", "headerSelected": "selectedIcon" } );
+						});
+					</script>
+					<?php wp_footer(); ?>
 					<script type='text/javascript' src='<?php echo get_template_directory_uri() ?>/js/jquery.hoverIntent.minified.js'></script>
 					<script>
 					//$(document).ready(function () {
@@ -67,10 +73,7 @@
 					    });
 					});
 					</script>
-					<script type='text/javascript'>
-						$(function() {
-						   	$('#accordion').accordion();
-						});
-					</script>
+								
+
 	</body>
 </html>
