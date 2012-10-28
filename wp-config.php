@@ -19,13 +19,13 @@
 define('DB_NAME', 'commit2011');
 
 /** MySQL database username */
-define('DB_USER', 'commit2011');
+define('DB_USER', 'bd937eae8a7cb4');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Commit!2011');
+define('DB_PASSWORD', 'b19209c7');
 
 /** MySQL hostname */
-define('DB_HOST', 'commit2011.db.8537128.hostedresource.com');
+define('DB_HOST', 'us-cdbr-azure-west-a.cloudapp.net');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
