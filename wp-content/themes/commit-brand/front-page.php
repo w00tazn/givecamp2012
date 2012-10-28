@@ -32,7 +32,7 @@ get_header();
 
 			
 		</div><!-- #accordion -->
-		
+	<div style="clear: both"></div>	
 	</div><!-- #hero-content -->
 	
 </div><!-- #primary -->

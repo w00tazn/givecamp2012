@@ -377,6 +377,13 @@ a:hover {
 	border-top-right-radius: 9px;
 }
 
+.nav .menu ul ul ul li a {
+	color:black!important;
+}
+.nav .menu ul ul ul li:hover a{
+	color:white!important;
+}
+
 .nav .menu ul li:hover > ul {
 	display: block;
 }
@@ -3715,31 +3722,51 @@ padding: 0;
     text-decoration: none;
 }
 
-/* --- --- [ Headline ] --- --- */
+/********************
 
-#primary #headline {	
-border: 10px #000;
-width: 80%;
-margin-left: 10%;
-margin-top: 20px; 
+  COMMON HERO CONTENT STYLING
+
+ ***********************/
+
+#primary {    
+    width: 100%;
 }
 
-#primary #headline # headline-img {	
-float: left;
+#primary #hero-content {    
+    clear: both;
+    
+    border: 2px solid #999;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px; 
+    padding: 20px; 
 }
 
-#primary #headline # headline-accordion {	
-float: right;
+#primary #hero-content #hero-image img{
+    border: 1px;
+    width: 50%;
+    float: left;
+    margin-right: 5%;
 }
 
-#primary #headline # headline-accordion ul {	
-width: 50%;
+
+#primary #hero-content #accordion {    
+    float: left;
+    width: 45%;
 }
 
-#primary #headline #headline-img img{
-border: 1px;
-padding: 2px; 
-width: 50%;
+#primary #hero-content #accordion h3 {        
+    font-size: 1.2em;
+    color: #C00;
+    font-weight: bold;
+    background-color: #ddd;
+}
+
+#primary #hero-content #accordion p {        
+    font-size: 0.7em;
 }
 
 /* Footer Cradle to Career Nav*/
