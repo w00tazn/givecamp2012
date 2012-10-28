@@ -396,7 +396,8 @@ a:hover {
 .nav .menu ul li.current-menu-ancestor ul li a {background: none;}
 .nav .menu ul li.current-menu-item a {background: url('images/menu-icon.png') 3px 5px no-repeat;}
 .nav .menu ul li.current-menu-item ul li a {background: none;}
-.nav .menu ul li ul li.current-menu-item {background: url('images/excl-point-red.png') 10px 3px no-repeat; }
+.nav .menu ul li ul li.current-menu-item {background: url('images/excl-point-red.png') 12px 12px no-repeat; }
+.nav .menu ul li ul li.current-menu-item a {color:white; }
 
 .nav div.menu, .nav .menu ul ul, .postformat, .page-header, .widget-title  {background: #003663; }
 
