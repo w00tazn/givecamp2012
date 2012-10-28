@@ -1,6 +1,20 @@
 <?php
 
 ?>
+					
+					<div class="footerc">
+						<center>
+							<ul>
+							<li>
+
+							</li>	
+						<li>
+						</li>
+						<li>
+
+						</li>
+						</center>
+					</div>
 					<div class="footerc">
 						<center>
 							<ul>
@@ -31,19 +45,25 @@
 
 
 			<footer>
-
 				<br/>
 				<center>
 					<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'menu' ) ); ?>
 				</center>
 				<br/>
 				<br/>
+				<br/>
 
-				<div class="footer-logo"><img src="<?php bloginfo('template_directory'); ?>/images/footer-logo.png" alt=" " /></div>
-				<p class="footer-right">All Rights Reserved. 2012. Commit!</p>								
-				<div class="clear"></div>	
+
+				<p class="footer-left">All Rights Reserved. 2012. Commit!</p>
+				<p class="footer-right"><a href="http://maps.google.com/maps?q=3963+Maple+Ave+Suite+290+Dallas,+TX+75219&hnear=3963+Maple+Ave+%23290,+Dallas,+Texas+75219&gl=us&t=m&z=16">3963 Maple Ave<br/>
+					Suite 290<br/>
+					Dallas, TX 75219</a><br/>
+					<a href="mailto:info@commit2dallas.org">info@commit2dallas.org</a>
+				</p>
+				<div style="clear:both;"></div>
 
 			</footer>
+
 
 		</div>
 	<?php wp_footer(); ?>

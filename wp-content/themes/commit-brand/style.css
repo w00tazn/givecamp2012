@@ -132,14 +132,31 @@ body {
 }
 
 footer {
-	background: #003663;
+	background: #003663 url('images/footer-logo.png') 20px 20px no-repeat;
 }
 
-.footer-logo {float: left;padding-bottom: 0px;margin-left: 20px;}
+.footer-logo {float: left;padding-bottom: 0px;margin-left: 20px; }
+
+.footer-left {
+	margin-top: 60px;
+	float: left;
+	margin-left: 20px;
+	font-size: .7em;
+	color: white;
+}
 
 .footer-right {
-	margin-top: 60px;float: left;margin-left: 20px;
+	margin-top: 5px;
+	float: right;
+	margin-right: 20px;
+	text-align: right;
+}
+.footer-right>a ,
+.footer-right>a:hover {
 	color: white;
+	font-size: .7em;
+	line-height: 5px;
+	text-decoration: none;
 }
 
 footer .menu ul {
